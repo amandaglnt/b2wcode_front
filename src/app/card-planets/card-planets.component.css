@@ -1,0 +1,61 @@
+/* Background da página */
+.backgPlanets{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url(../../assets/img/galaxy2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    opacity: 0.9;
+}
+
+/* Card com a exibição das informações. */
+.boxPlanets{
+    width: 325px;
+    height: 325px;
+    background: #f8f6f6;
+    opacity: 0.75;
+    border-radius: 5px;
+    flex-flow: row wrap;
+}
+
+/* Título do card. */
+.titlePlanets {
+    text-align: center;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: black;
+}
+
+/* Informações do Card. */
+.infoPlanets{
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+/* Exibição da quantidade de filmes em que o planeta apareceu. */
+.descPlanets{
+    word-break: break-word;
+    font-size: 14px;
+    color: black;
+    margin-left: 5px;
+    text-align: center;
+}
+
+/* Botão para aleatorizar planetas. */
+.buttons{
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffe81f;
+}

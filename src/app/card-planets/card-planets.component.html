@@ -1,0 +1,18 @@
+<div class="backgPlanets">
+   <mat-card class="boxPlanets">
+      <mat-card-title class="titlePlanets">{{planeta.name}} </mat-card-title>
+      <mat-card-subtitle class="infoPlanets">Population: {{planeta.population}}</mat-card-subtitle>
+      <mat-card-subtitle class="infoPlanets">Climate: {{planeta.climate}}</mat-card-subtitle>
+      <mat-card-subtitle class="infoPlanets">Terrain: {{planeta.terrain}}</mat-card-subtitle>
+
+      <mat-card-content class="descPlanets">
+      Appears in {{planeta.qtdFilme}} films.
+     </mat-card-content> 
+
+      <mat-card-actions class="buttons">
+      <button mat-button class="randomPlanets" (click)="getPlanetaById()">
+         <i class="material-icons">autorenew</i>
+      </button>
+      </mat-card-actions>
+   </mat-card>
+</div>
